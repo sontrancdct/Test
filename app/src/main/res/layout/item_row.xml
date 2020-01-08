@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#E2B6C99B"
+    android:gravity="center">
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="TextView" />
+    <TextView
+        android:textSize="15sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="2"
+        android:text="TextView" />
+    <ImageButton
+        android:id="@+id/imgbtCall"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_call_black_24dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <ImageButton
+        android:id="@+id/imgbtDelete"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_delete_forever_black_24dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+</LinearLayout>
